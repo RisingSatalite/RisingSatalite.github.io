@@ -1,3 +1,8 @@
 #main-accomplishments{
     background-color: rgb(255, 235, 157);
 }
+
+#main-accomplishments li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
