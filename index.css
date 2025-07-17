@@ -3,7 +3,20 @@ body {
   margin: 40px;
   background-color: #f4f4f4;
   color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
 }
+
+h1 {
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+
 
 header, footer {
   text-align: center;
@@ -22,6 +35,7 @@ li {
 a {
   color: #007acc;
   text-decoration: none;
+  word-break: break-word;
 }
 
 a:hover {
